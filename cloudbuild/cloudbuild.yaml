@@ -51,4 +51,6 @@ steps:
 # Terraform apply
 - name: hashicorp/terraform
   id: terraform-apply
-  args: ['apply']
+  args:
+    - 'apply'
+    - '-auto-approve'
