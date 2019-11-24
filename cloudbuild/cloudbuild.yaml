@@ -34,6 +34,9 @@ steps:
   args:
   - clone
   - git@github.com:slowmosteve/tf-ref-project.git
+  volumes:
+  - name: 'ssh'
+    path: /root/.ssh
 
 # Perform terraform init
 - name: hashicorp/terraform
