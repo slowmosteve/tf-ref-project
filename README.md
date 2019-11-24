@@ -46,6 +46,5 @@ This project `tf-ref-project` demonstrates provisioning of Google Cloud Platform
 - Select `Cloud Build configuration file (yaml or json)` and ensure that correct path location of the file is provided
 - Any pushes to the master branch will trigger the `cloudbuild.yaml` build job to run
 
-
 ## To do
 - enable cloud build API through terraform
