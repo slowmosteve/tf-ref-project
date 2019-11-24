@@ -1,7 +1,6 @@
 # provider
 provider "google" {
-#   project = var.project_id
-  credentials = file("./service-acct/key.json")
+  # credentials = file("./service-acct/key.json")  # only needed for local
   region  = "us-central1"
   zone    = "us-central1-c"
 }
